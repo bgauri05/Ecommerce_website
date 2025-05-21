@@ -1,71 +1,73 @@
-# 🛍️ Shopping App
+🛍️ Shopping App
+A sleek, responsive e-commerce web application built with React. This app allows users to browse products, filter by categories, search, and visualize product distribution using charts.
 
-A modern e-commerce web app built with React using Create React App. This app features a clean interface for browsing, selecting, and managing products in a shopping cart.
+🚀 Features
+🧾 Dynamic Product Listing – Fetched from Fake Store API
 
----
+🔍 Search Functionality – Filter products in real-time
 
-## 🚀 Features
+🗂️ Category Navigation – Select products by category
 
-- 🧾 Product listing  
-- 🛒 Add to cart  
-- 💳 Cart summary with total calculation  
-- 📱 Responsive layout  
-- ⚡ Fast development environment with Create React App
+📊 Analytics – Visualize product distribution by category with a pie chart
 
----
+📱 Responsive Design – Works seamlessly on desktop and mobile
 
-## 📦 Getting Started
+⚛️ Modern Tech Stack – Built using Create React App and Chart.js
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/bgauri05/Shopping-App.git
-cd Shopping-App
-npm install
-npm start
-📁 Folder Structure
+📁 Project Structure
 php
-Copy code
+Copy
+Edit
 Shopping-App/
 ├── public/
 ├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Page views
-│   ├── utils/           # Utility functions and helpers
-│   ├── App.js           # Main app component
-│   └── index.js         # React entry point
+│   ├── components/
+│   │   ├── Header.js          # Search bar and category menu
+│   │   ├── ProductList.js     # Product rendering logic
+│   │   ├── AnalyseButton.js   # Button to trigger pie chart modal
+│   │   └── PieChartModal.js   # Chart.js-based pie chart
+│   ├── pages/
+│   │   └── Home.js            # Main page component
+│   ├── utils/
+│   │   └── api.js             # API functions (not included here)
+│   ├── App.js                 # Root app with routes and layout
+│   └── index.js               # Entry point
 ├── package.json
 └── README.md
+📦 Getting Started
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/bgauri05/Shopping-App.git
+cd Shopping-App
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the App
+bash
+Copy
+Edit
+npm start
+Visit http://localhost:3000 in your browser.
+
 🛠️ Available Scripts
-In the project directory, you can run:
+npm start — Start development server
 
-npm start — Runs the app in development mode.
-Open http://localhost:3000 to view it in your browser.
+npm test — Run tests in watch mode
 
-npm test — Launches the test runner in interactive watch mode.
+npm run build — Create optimized production build
 
-npm run build — Builds the app for production to the build folder.
-It bundles React in production mode and optimizes the build for the best performance.
+npm run eject — ⚠️ Expose all config files (irreversible)
 
-npm run eject — ⚠️ This is a one-way operation. Once you eject, you can't go back!
-It exposes the configuration files for Webpack, Babel, ESLint, etc.
-
-🚀 Production Build
-To build the app for production:
-npm run build
+📊 Product Analytics
+Click the "Analyse" button in the bottom-right corner to view a pie chart breakdown of products by category using Chart.js.
 
 👤 Author
 Gauri Bhonsle
+GitHub: @bgauri05
 
 📝 License
 This project is licensed under the MIT License.
-
-
-
-
-
-
-
-
-
-
