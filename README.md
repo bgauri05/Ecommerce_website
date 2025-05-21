@@ -1,23 +1,23 @@
-🛍️ Shopping App
+# 🛍️ Shopping App
+
 A sleek, responsive e-commerce web application built with React. This app allows users to browse products, filter by categories, search, and visualize product distribution using charts.
 
-🚀 Features
-🧾 Dynamic Product Listing – Fetched from Fake Store API
+---
 
-🔍 Search Functionality – Filter products in real-time
+## 🚀 Features
 
-🗂️ Category Navigation – Select products by category
+- 📦 **Dynamic Product Listing** – Fetched from [Fake Store API](https://fakestoreapi.com/)
+- 🔍 **Search Functionality** – Filter products in real-time
+- 🗂️ **Category Navigation** – Select products by category
+- 📊 **Analytics** – Visualize product distribution by category with a pie chart
+- 📱 **Responsive Design** – Works seamlessly on desktop and mobile
+- ⚛️ **Modern Tech Stack** – Built using Create React App and Chart.js
 
-📊 Analytics – Visualize product distribution by category with a pie chart
+---
 
-📱 Responsive Design – Works seamlessly on desktop and mobile
+## 📁 Project Structure
 
-⚛️ Modern Tech Stack – Built using Create React App and Chart.js
-
-📁 Project Structure
-php
-Copy
-Edit
+```
 Shopping-App/
 ├── public/
 ├── src/
@@ -34,11 +34,20 @@ Shopping-App/
 │   └── index.js               # Entry point
 ├── package.json
 └── README.md
-📦 Getting Started
-1. Clone the Repository
-bash
+```
+
+
+yaml
 Copy
 Edit
+
+---
+
+## 🧰 Getting Started
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/bgauri05/Shopping-App.git
 cd Shopping-App
 2. Install Dependencies
@@ -51,17 +60,16 @@ bash
 Copy
 Edit
 npm start
-Visit http://localhost:3000 in your browser.
+Open http://localhost:3000 to view it in your browser.
 
 🛠️ Available Scripts
-npm start — Start development server
-
-npm test — Run tests in watch mode
-
-npm run build — Create optimized production build
-
-npm run eject — ⚠️ Expose all config files (irreversible)
-
+bash
+Copy
+Edit
+npm start       # Start development server
+npm test        # Run tests in watch mode
+npm run build   # Create optimized production build
+npm run eject   # ⚠️ Expose all config files (irreversible)
 📊 Product Analytics
 Click the "Analyse" button in the bottom-right corner to view a pie chart breakdown of products by category using Chart.js.
 
